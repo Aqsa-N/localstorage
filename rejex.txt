@@ -1,0 +1,48 @@
+[A-Z]
+Upper Case Letter
+
+[a-z]
+Lower Case Letter
+
+[0-9]
+Numbers Pattern
+
+[\W]
+Special Characters
+
+{}
+Limit Data
+
+{6,6}
+Range Between Data Minimum And Maximum
+
+^ Starting Match
+
+$ Ending Match
+
+
+^[A-z 0-9\W]{8,12}$
+
+
+Name Pattern
+^[A-z ]{3,12}$
+
+
+CNIC PATTERN
+[0-9]{5}-[0-9]{7}-[0-9]{1}
+
+
+Phone Pattern
+^[92]{2}[0-9]{10}$
+
+5 Countries pattern
+^[9]{1}[1-5]{1}[0-9]{10}$
+
+
+Email Pattern
+^[A-z0-9\W]+@[A-z]{3,}.[A-z]{2,}$
+
+
+Password Pattern
+
+^(?=.*[A-Z])(?=.*[a-z])(?=.*[\W])(?=.*[0-9]).{8}$
